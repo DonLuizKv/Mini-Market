@@ -1,10 +1,10 @@
-import Header from "@/components/Header";
 import Bento from "@/components/Bento";
+import Slider from "@/components/Slider";
 
 export default function Home() {
   return (
-    <main>
-      <Header />
+    <main className="flex flex-col ">
+      <Slider />
       <Bento />
     </main>
   );

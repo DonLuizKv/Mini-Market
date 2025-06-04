@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Rubik } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/Header";
 
 const rubik = Rubik({
   subsets: ["latin"],
@@ -19,6 +20,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
         <link rel="icon" href="/logo.ico" />
       </head>
       <body className={`${rubik.variable} antialiased`}>
+        <Header />
         {children}
       </body>
     </html>

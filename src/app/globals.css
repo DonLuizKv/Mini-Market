@@ -36,3 +36,7 @@ html::-webkit-scrollbar-thumb {
 html::-webkit-scrollbar-thumb:hover {
   background-color: #d28c00;
 }
+
+button {
+  cursor: pointer;
+}
